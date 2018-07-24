@@ -13,4 +13,4 @@ Uses Selenium and BeautifulSoup to scrape a table of statistical data on [Overbu
 Uses archived data to post a weekly statistical breakdown.  This breakdown calculates the change in win rate, pick rate, tie rate, and "on fire" percentages over the past week, from both monthly and weekly frames of reference.
 
 ### praw.ini
-Example `praw.ini` file that's required to authenticate the bot and allow usage of Reddit's API.
+This is an example `praw.ini` file that's required to authenticate the bot and allow usage of Reddit's API.
