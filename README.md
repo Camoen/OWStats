@@ -10,7 +10,7 @@ If the bot hasn't run yet on the current day, it gathers and archives new statis
 Uses Selenium and BeautifulSoup to scrape a table of statistical data on [Overbuff](https://www.overbuff.com/heroes), then archives this data locally.
 
 ### weekly_stats.py
-Uses archived data to post a weekly statistical breakdown.  This breakdown calculates the change in win rate, pick rate, tie rate, and "on fire" percentages over the past week, from both a monthly and weekly point of reference.
+Uses archived data to post a weekly statistical breakdown.  This breakdown calculates the change in win rate, pick rate, tie rate, and "on fire" percentages over the past week, from both monthly and weekly frames of reference.
 
 ### praw.ini
 Example `praw.ini` file that's required to authenticate the bot and allow usage of Reddit's API.
