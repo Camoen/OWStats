@@ -7,7 +7,7 @@ This is the code that runs [Overwatch_Stats_Bot](https://www.reddit.com/user/ove
 If the bot hasn't run yet on the current day, it gathers and archives new statistical data via `get_stats.py`.  Additionally, if it's the first run on a Tuesday, the bot posts a weekly statistical breakdown to [r/OWStatsArchive](https://www.reddit.com/r/OWStatsArchive/), via `weekly_stats.py`.
 
 ### get_stats.py
-Uses Selenium and BeautifulSoup to scrape a table of statistical data on [Overbuff](https://www.overbuff.com/heroes).
+Uses Selenium and BeautifulSoup to scrape a table of statistical data on [Overbuff](https://www.overbuff.com/heroes), then archives this data locally.
 
 ### weekly_stats.py
 Uses archived data to post a weekly statistical breakdown.  This breakdown calculates the change in win rate, pick rate, tie rate, and "on fire" percentages over the past week from both a monthly and weekly point of reference.
