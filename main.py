@@ -150,7 +150,7 @@ def main():
     # If program hasn't been run yet today, get new statistics
     if (lastrun != current_date):
         print('Gathering new data.')
-        get_stats_no_daily_limit.retrieve()
+        get_stats.retrieve()
         with open("run_history.txt", "w+") as hist:
             hist.write(current_date)
 
