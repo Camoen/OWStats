@@ -6,6 +6,10 @@ This is the code that runs [Overwatch_Stats_Bot](https://www.reddit.com/user/ove
 
 If the bot hasn't run yet on the current day, it gathers and archives new statistical data via `get_stats.py`.  Additionally, if it's the first run on a Tuesday, the bot posts a weekly statistical breakdown to [r/OWStatsArchive](https://www.reddit.com/r/OWStatsArchive/), via `weekly_stats.py`.
 
+Here's an example of what an automated reply looks like:
+![OWStats Bot Automated Reply](https://github.com/Camoen/OWStats/blob/master/OWStats%20auto%20reply.PNG)
+
+
 ### get_stats.py
 Uses Selenium and BeautifulSoup to scrape a table of statistical data on [Overbuff](https://www.overbuff.com/heroes), then archives this data locally.
 
