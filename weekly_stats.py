@@ -27,7 +27,7 @@ def data_gathering():
     print("Newest file is from {}".format(newest_date))
     # Find archive file closest to a week ago.
     global old_date
-    old_date = (datetime.now() - timedelta(days=6))
+    old_date = (datetime.now() - timedelta(days=7))
     target_date = old_date.strftime('%Y-%m-%d')
     print("Target_date is {}".format(target_date))
 
